@@ -2,13 +2,13 @@ body{
     background-color: rgb(43, 43, 43);
 }
 
-.web_font{
-    font-family: Georgia;
+.mwf{
+    font-family: Courier;
     color: white;
 }
 
-.title{
+.navmen{
     size: 100px;
-    font-family: Georgia;
-    color: white;
+    font-family: Courier;
+    color: rgb(27, 206, 0);
 }
