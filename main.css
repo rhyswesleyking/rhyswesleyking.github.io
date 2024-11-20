@@ -3,12 +3,12 @@ body{
 }
 
 .mwf{
-    font-family: Courier;
+    font-family: 'Courier New', monospace;
     color: white;
 }
 
 .navmen{
     size: 100px;
-    font-family: Courier;
+    font-family: 'Courier New', monospace;
     color: rgb(27, 206, 0);
 }
