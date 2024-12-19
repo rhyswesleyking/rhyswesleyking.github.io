@@ -26,6 +26,12 @@ body{
     color: white;
     max-width: 600px;
     display: block;
+    text-decoration: none;
+}
+
+.mwf:hover{
+    color: #1bce00;
+    text-decoration: underline;
 }
 
 .topnav{
