@@ -24,6 +24,7 @@ body{
 .mwf{
     font-family: 'Courier New', monospace;
     color: white;
+    max-width: 600px;
 }
 
 .topnav{
