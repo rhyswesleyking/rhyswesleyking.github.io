@@ -2,17 +2,20 @@ body{
     background-color: #1e1e1e;
     background-image: url("digital_rain.gif");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .header{
     margin: 20px 20px 20px 20px;
     font-family: 'Courier New', monospace;
     color: white;
+    text-align: center;
 }
 
+/*main profile picture stuff*/
 .main_pic{
     display: block;
-    margin-right: auto;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 300px;
@@ -21,12 +24,17 @@ body{
     border-color: #000000;
 }
 
+/*main white font, green on hover*/
 .mwf{
     font-family: 'Courier New', monospace;
     color: white;
     max-width: 600px;
     display: block;
     text-decoration: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .mwf:hover{
@@ -34,18 +42,23 @@ body{
     text-decoration: none;
 }
 
+/*top navigation bar stuff*/
 .topnav{
-    position: relative;
+    width: 100%;
     background-color: #333;
-    overflow: hidden;
+    background-blend-mode: ;
+    overflow: auto;
 }
 
 .topnav a{
-    float: left;
+    float:left;
+    padding: 12px;
     color: #1bce00;
+    font-size: 17px;
     font-family: 'Courier New', monospace;
-    padding: 14px 16px;
+    width: 19%;
     text-decoration: none;
+    text-align: center;
 }
 
 .topnav a:hover{
@@ -53,14 +66,14 @@ body{
     color: #000000;
 }
 
+/*quick gallery picture settings*/
 .gallery {
     width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 5px 5px 5px 5px;
-    float: left;
+    margin: auto;
   }
-  
+
 .gallery:hover {
     border: 2px solid #48ff00;
   }
@@ -73,4 +86,40 @@ body{
 .desc {
     padding: 10px 20px;
     text-align: center;
+  }
+
+  /*-----contact banner secton-----*/
+
+  .cntctbnr{
+    background-color: #333;
+    
+  }
+
+  .cntctbnrtxt{
+    font-family: 'Courier New', monospace;
+    color: white;
+    max-width: 600px;
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .cntctbnrtxt:hover{
+    color: #1bce00;
+  }
+
+  /*-----separate test thingy-----*/
+
+  .shmallery {
+    width: 20%;
+    float: left;
+  }
+
+  .shmallery:hover {
+    border: 3px solid #1bce00;
   }
