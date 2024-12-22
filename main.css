@@ -6,15 +6,16 @@ body{
 }
 
 .header{
-    margin: 20px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
     font-family: 'Courier New', monospace;
     color: white;
     float: left;
+    text-decoration: none;
 }
 
 .header:hover{
-    text-decoration: underline;
     color: #1bce00;
+    text-decoration:underline;
 }
 
 /*main profile picture stuff*/
@@ -29,6 +30,17 @@ body{
     border-color: #000000;
 }
 
+/*main white font, regular*/
+.mwf-2{
+  font-family: 'Courier New', monospace;
+  color: white;
+  max-width: 600px;
+  display: block;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+}
+
 /*main white font, green on hover*/
 .mwf{
     font-family: 'Courier New', monospace;
@@ -40,6 +52,8 @@ body{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .mwf:hover{
@@ -51,7 +65,6 @@ body{
 .topnav{
     width: 100%;
     background-color: #333;
-    background-blend-mode: ;
     overflow: auto;
 }
 
@@ -92,11 +105,20 @@ body{
     text-align: center;
   }
 
-  /*contact banner secton*/
+  /*Box containter thing for blog post images/videos*/
+  .blogpstgal{
+    margin: auto;
+    background-color: #243422;
+    max-width: 600px;
+    display: block;
+    padding: 10px;
+  }
 
+  /*contact banner secton*/
   .cntctbnr{
     background-color: #333;
-    margin-bottom: 300px;
+    margin: 15px;
+    padding: 20px
   }
 
   .cntctbnrtxt{
@@ -107,8 +129,6 @@ body{
     text-decoration: none;
     margin: auto;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -118,9 +138,9 @@ body{
   }
 
   /*separate test thingy*/
-
   .shmallery {
-    width: 10%;
+    max-width: 100%;
+    height:fit-content;
   }
 
   .shmallery:hover {
@@ -261,7 +281,7 @@ body{
   .crt::after {
     content: " ";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -275,7 +295,7 @@ body{
   .crt::before {
     content: " ";
     display: block;
-    position: absolute;
+    position:fixed;
     top: 0;
     left: 0;
     bottom: 0;
