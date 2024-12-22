@@ -9,7 +9,12 @@ body{
     margin: 20px 20px 20px 20px;
     font-family: 'Courier New', monospace;
     color: white;
-    text-align: center;
+    float: left;
+}
+
+.header:hover{
+    text-decoration: underline;
+    color: #1bce00;
 }
 
 /*main profile picture stuff*/
@@ -56,7 +61,6 @@ body{
     color: #1bce00;
     font-size: 17px;
     font-family: 'Courier New', monospace;
-    width: 19%;
     text-decoration: none;
     text-align: center;
 }
@@ -80,7 +84,7 @@ body{
   
 .gallery img {
     width: 100%;
-    height: auto;
+    height: 100;
   }
   
 .desc {
@@ -92,7 +96,7 @@ body{
 
   .cntctbnr{
     background-color: #333;
-    
+    margin-bottom: 300px;
   }
 
   .cntctbnrtxt{
@@ -116,8 +120,7 @@ body{
   /*separate test thingy*/
 
   .shmallery {
-    width: 20%;
-    float: left;
+    width: 10%;
   }
 
   .shmallery:hover {
