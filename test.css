@@ -105,11 +105,35 @@ body{
     text-align: center;
   }
 
-  .gallery-container{
+    
+  * {
+    box-sizing: border-box;
+  }
+
+  
+  .gallery-container {
+    padding: 0 6px;
     float: left;
-    max-width: 600px;
-    display: block;
-    padding: 10px;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .gallery-container {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .gallery-container {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
   /*Box containter thing for blog post images/videos*/
@@ -146,8 +170,8 @@ body{
 
   /*separate test thingy*/
   .shmallery {
-    float: left;
-    border: 3px solid white;
+    max-width: 100%;
+    height:fit-content;
   }
 
   .shmallery:hover {
