@@ -146,7 +146,6 @@ body{
 
   /*separate test thingy*/
   .shmallery {
-    float: left;
     border: 3px solid white;
   }
 
