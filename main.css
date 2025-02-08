@@ -1,4 +1,28 @@
-body{
+/*quick gallery picture settings*/
+.gallery {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+  }
+
+.gallery:hover {
+    border: 2px solid #48ff00;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: 100;
+  }
+  
+.desc {
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  /**************** Basic Text Styles ****************/
+
+  body{
     background-color: #1e1e1e;
     background-image: url("digital_rain.gif");
     background-size: cover;
@@ -16,18 +40,6 @@ body{
 .header:hover{
     color: #1bce00;
     text-decoration:underline;
-}
-
-/*main profile picture stuff*/
-.main_pic{
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 300px;
-    border-style:solid;
-    border-width: 10px;
-    border-color: #000000;
 }
 
 /*main white font, regular*/
@@ -83,36 +95,7 @@ body{
     color: #000000;
 }
 
-/*quick gallery picture settings*/
-.gallery {
-    width: 20%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: auto;
-  }
-
-.gallery:hover {
-    border: 2px solid #48ff00;
-  }
-  
-.gallery img {
-    width: 100%;
-    height: 100;
-  }
-  
-.desc {
-    padding: 10px 20px;
-    text-align: center;
-  }
-
-  /*Box containter thing for blog post images/videos*/
-  .blogpstgal{
-    margin: auto;
-    background-color: #243422;
-    max-width: 600px;
-    display: block;
-    padding: 10px;
-  }
+  /**************** Page - Home ****************/
 
   /*contact banner secton*/
   .cntctbnr{
@@ -138,17 +121,41 @@ body{
     color: #1bce00;
   }
 
-  /*separate test thingy*/
-  .shmallery {
-    max-width: 100%;
-    height:fit-content;
-  }
+  /*main profile picture stuff*/
+.main_pic{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  border-style:solid;
+  border-width: 10px;
+  border-color: #000000;
+}
 
-  .shmallery:hover {
-    border: 3px solid #1bce00;
-  }
+  /**************** Page - About Me ****************/
 
-  /*Crt filter from http://aleclownes.com/2017/02/01/crt-display.html*/
+
+  /**************** Page - Blog ****************/
+
+    /*Box containter thing for blog post images/videos*/
+    .blogpstgal{
+      margin: auto;
+      background-color: #243422;
+      max-width: 600px;
+      display: block;
+      padding: 10px;
+    }
+
+  /**************** Page - Shop ****************/
+
+
+  /**************** Page - Links ****************/
+
+
+  /**************** Filters & Effects ****************/
+
+    /*Crt filter from http://aleclownes.com/2017/02/01/crt-display.html*/
   @keyframes flicker {
     0% {
       opacity: 0.27861;
@@ -309,4 +316,3 @@ body{
   .crt {
     animation: textShadow 1.6s infinite;
   }
-  
