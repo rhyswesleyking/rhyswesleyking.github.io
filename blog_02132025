@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rhys' Hub</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+    </head>
+<body>
+    <div class="crt">
+        <h1><a class="header" href="index.html">Rhys' Hub</a></h1>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about_me.html">About Me</a>
+            <a href="blog.html">Blog</a>
+            <a href="shop.html">Shop</a>
+            <a href="socials.html">Links</a>
+        </div>
+        <br>
+        <div class="blogpstgal">
+            <h2 style="font-family: 'Courier New', monospace; color: white;">Blog #4: "Power Outage"</h2>
+            <h3 style="font-family: 'Courier New', monospace; color: white;">02/03/2025</h3>
+            <p style="font-family: 'Courier New', monospace; color: white;">Power's Out. We just had a massive snowstorm and the world is covered in a glistening sheen of ice. Beautiful but dangerous.</p>
+            <p style="font-family: 'Courier New', Courier, monospace; color: white;">Aside from the incessant shrills and screeches from my sister's parakeets, the house is refreshingly devoid of sound. It's funny how you never realize how loud the modern world is until it's forcibly shut up by nature.</p>
+            <p style="font-family: 'Courier New', Courier, monospace; color: white;">As a kid I used to get so excited when the power went out because it felt like an adventure. Funny how that hasn't seemed to change, even after all these years. In a way I think I almost enjoy it more now than I ever did back then.</p>
+            <p style="font-family: 'Courier New', Courier, monospace; color: white;">When the power goes out I'm forcibly detached from devices that are constantly, desperately vying for my attention, and it feels so freeing to literally not be able to succumb to it. Technically yes, cellular data exists, but that only goes so far on a finite battery.</p>
+            <p style="font-family: 'Courier New', Courier, monospace; color: white;">It's moments like this that really solidify my reasoning to kind of escape the modern world (and not in a "holier-than-thou" kind of way). I've realized that I'm not really trying to escape technology, I'm trying to escape the capitalist matrix that the modern internet has become.</p>
+            <p style="font-family: 'Courier New', monospace; color: white;">- Rhys</p>
+            <iframe width="315" height="315" src="https://www.youtube.com/embed/tO3KMOSyZws?si=-WlEfI8OBNxcjdzn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+</body>
+</html>
