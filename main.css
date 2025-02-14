@@ -121,7 +121,7 @@
       display: inline-grid;
       grid-template-columns: auto auto auto;
       padding: 10px;
-      margin: 20px;
+      margin: auto;
     }
 
     /*Box containter thing for blog post images/videos*/
@@ -135,10 +135,10 @@
 
     /*quick gallery picture settings*/
     .blog-gallery {
-    width: 90%;
-    height: fit-content;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    float: left;
 }
 
     .blog-gallery:hover {
@@ -151,7 +151,6 @@
 }
 
     .blog-desc {
-    padding: 10px 20px;
     text-align: center;
 }
 
