@@ -102,8 +102,6 @@
 
   .cntctbnr2{
     background-color: #4f6148;
-    padding: 10px;
-    margin: auto;
   }
 
   .cntctbnrtxt2{
@@ -134,8 +132,10 @@
 }
 
 .recentindexgrid{
-display: grid;
-grid-template-rows: auto auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
   /**************** Page - About Me ****************/
