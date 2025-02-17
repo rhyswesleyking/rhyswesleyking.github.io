@@ -102,21 +102,7 @@
 
   .cntctbnr2{
     background-color: #4f6148;
-  }
-
-  .cntctbnrtxt2{
-    font-family: 'Courier New', monospace;
-    color: white;
-    display: block;
-    text-decoration: none;
     margin: auto;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .cntctbnrtxt2:hover{
-    color: #1bce00;
   }
 
   /*main profile picture stuff*/
@@ -132,10 +118,9 @@
 }
 
 .recentindexgrid{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+  display: flexbox;
+  justify-content:center;
+  padding:10px;
 }
 
   /**************** Page - About Me ****************/
