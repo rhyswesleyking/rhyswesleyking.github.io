@@ -55,6 +55,7 @@
 .topnav{
     width: 100%;
     background-color: #333;
+    opacity: 90%;
     overflow: auto;
 }
 
@@ -78,8 +79,8 @@
   /*contact banner secton*/
   .cntctbnr{
     background-color: #333;
+    opacity: 90%;
     padding: 10px;
-    max-width: 700px;
     margin: auto;
   }
 
@@ -99,6 +100,27 @@
     color: #1bce00;
   }
 
+  .cntctbnr2{
+    background-color: #4f6148;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .cntctbnrtxt2{
+    font-family: 'Courier New', monospace;
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .cntctbnrtxt2:hover{
+    color: #1bce00;
+  }
+
   /*main profile picture stuff*/
 .main_pic{
   display: block;
@@ -109,6 +131,12 @@
   border-style:solid;
   border-width: 10px;
   border-color: #000000;
+}
+
+.recentindexgrid{
+overflow: auto;
+white-space: nowrap;
+padding: 10px;
 }
 
   /**************** Page - About Me ****************/
@@ -142,7 +170,7 @@
 }
 
     .blog-gallery:hover {
-    border: 2px solid #48ff00;
+    border: 2px solid #ff0000;
 }
 
     .blog-gallery img {
