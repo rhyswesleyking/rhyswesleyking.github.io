@@ -125,6 +125,23 @@
 
   /**************** Page - About Me ****************/
 
+  .abtme{
+    background-color: #333;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    float: left;
+  }
+
+  .abtmedesc{
+    margin: auto;
+    background-color: #243422;
+    max-width: 600px;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
 
   /**************** Page - Blog ****************/
 
