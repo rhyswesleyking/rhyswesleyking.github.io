@@ -193,8 +193,47 @@
   /**************** Page - Shop ****************/
 
 
-  /**************** Page - Links ****************/
+  /**************** Page - Socials ****************/
 
+    /*Left to right image links to blog posts*/
+    .socialspostgrid{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+      margin: auto;
+    }
+
+    /*Box containter thing for blog post images/videos*/
+    .socialspstgal{
+      margin: auto;
+      background-color: #243422;
+      max-width: 600px;
+      display: block;
+      padding: 10px;
+    }
+
+    /*quick gallery picture settings*/
+    .socials-gallery {
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+}
+
+    .socials-gallery:hover {
+    border: 2px solid #4dff00;
+}
+
+    .socials-gallery img {
+    width: 100%;
+    height: 100;
+}
+
+    .socials-desc {
+    text-align: center;
+    color: white;
+}
 
   /**************** Filters & Effects ****************/
   /*Crt filter from http://aleclownes.com/2017/02/01/crt-display.html*/
