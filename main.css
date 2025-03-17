@@ -77,33 +77,35 @@
   /**************** Page - Home ****************/
 
   /*contact banner secton*/
-  .cntctbnr{
-    background-color: #333;
+  .indexpostgrid{
+    background-color: #243422;
     opacity: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     margin: auto;
   }
 
-  .cntctbnrtxt{
-    font-family: 'Courier New', monospace;
-    color: white;
-    max-width: 600px;
-    display: block;
-    text-decoration: none;
-    margin: auto;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+  /*quick gallery picture settings*/
+  .index-gallery {
+  margin: 20px;
+  padding: 20px;
+}
 
-  .cntctbnrtxt:hover{
-    color: #1bce00;
-  }
+  .index-gallery:hover {
+  border: 2px solid #4dff00;
+}
 
-  .cntctbnr2{
-    background-color: #4f6148;
-    margin: auto;
-  }
+  .index-gallery img {
+  width: 100%;
+  height: 100;
+}
+
+  .index-desc {
+  text-align: center;
+  color: white;
+}
 
   /*main profile picture stuff*/
 .main_pic{
@@ -200,7 +202,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      grid-template-columns: auto auto auto;
       padding: 10px;
       margin: auto;
     }
