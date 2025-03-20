@@ -140,10 +140,8 @@
     background-color: #243422;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    width: 500px;
+    max-width: 500px;
     border-radius: 5%;
-    overflow-y: scroll;
-    scrollbar-width: none;
   }
 
   .abtmegrid{
