@@ -142,6 +142,8 @@
     font-family: 'Courier New', Courier, monospace;
     width: 500px;
     border-radius: 5%;
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   .abtmegrid{
