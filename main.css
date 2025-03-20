@@ -83,12 +83,11 @@
   .indexpostgrid{
     background-color: #243422;
     opacity: 90%;
-    display: flex;
+    display:grid;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin: auto;
-    overflow: auto;
+    margin: 20px;
+    overflow:auto;
   }
 
   /*quick gallery picture settings*/
@@ -99,6 +98,7 @@
 
   .index-gallery:hover {
   border: 2px solid #4dff00;
+  border-radius: 50px;
 }
 
   .index-gallery img {
@@ -118,42 +118,36 @@
   margin-top: 20px;
   margin-bottom: 20px;
   width: 300px;
-  border-style:solid;
   border-width: 10px;
-  border-color: #000000;
-}
-
-.recentindexgrid{
-  display: flexbox;
-  justify-content:center;
-  padding:10px;
+  border-radius: 50%;
 }
 
   /**************** Page - About Me ****************/
 
   .abtme{
     background-color: #333;
+    border-radius: 5%;
     padding: 10px;
     margin: 10px;
     max-width: 300px;
-    float: left;
+    max-height: 300px;
+    overflow-y:scroll;
+    scrollbar-width: none;
   }
 
   .abtmedesc{
     margin: auto;
-    background-color: #243422;
-    max-width: 600px;
-    display: block;
     padding: 10px;
+    background-color: #243422;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+    border-radius: 5%;
   }
 
   .abtmegrid{
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
     padding: 10px;
-    margin: auto;
   }
 
   /**************** Page - Blog ****************/
@@ -223,10 +217,6 @@
     .socials-gallery {
     margin: 20px;
     padding: 20px;
-}
-
-    .socials-gallery:hover {
-    border: 2px solid #4dff00;
 }
 
     .socials-gallery img {
