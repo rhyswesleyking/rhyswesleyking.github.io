@@ -168,32 +168,28 @@ overflow: auto;
 
     /*Box containter thing for blog post images/videos*/
     .blogpstgal{
-      margin: auto;
       background-color: #243422;
-      max-width: 600px;
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
       padding: 10px;
     }
 
     /*quick gallery picture settings*/
     .blog-gallery {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(43, 43, 43);
     margin: 20px;
-    float: left;
 }
 
     .blog-gallery:hover {
-    border: 2px solid #ff0000;
-}
-
-    .blog-gallery img {
-    width: 100%;
-    height: 100;
+      box-shadow: 0 12px 24px 0 rgba(129, 255, 90, 0.2), 0 18px 60px 0 rgba(129, 255, 90, 0.2);
 }
 
     .blog-desc {
     text-align: center;
+    padding: 10px;
+    color: white;
 }
 
   /**************** Page - Shop ****************/
