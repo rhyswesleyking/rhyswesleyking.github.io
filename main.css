@@ -22,6 +22,20 @@
     text-decoration:underline;
 }
 
+.footer{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:#243422;
+margin: 15px;
+opacity: 90%;
+overflow: auto;
+}
+
+.footer:hover{
+  opacity: 100%;
+}
+
 /*main white font, regular*/
 .mwf-2{
   font-family: 'Courier New', monospace;
@@ -83,22 +97,14 @@
   .indexpostgrid{
     background-color: #243422;
     opacity: 90%;
-    display:grid;
-    align-items: center;
-    justify-content: center;
+    display:inline-block;
     margin: 20px;
-    overflow:auto;
   }
 
   /*quick gallery picture settings*/
   .index-gallery {
   margin: 20px;
   padding: 20px;
-}
-
-  .index-gallery:hover {
-  border: 2px solid #4dff00;
-  border-radius: 50px;
 }
 
   .index-gallery img {
@@ -109,6 +115,9 @@
   .index-desc {
   text-align: center;
   color: white;
+  float: right;
+  margin: 10px;
+  padding: 15px;
 }
 
   /*main profile picture stuff*/
@@ -119,7 +128,6 @@
   margin-bottom: 20px;
   width: 300px;
   border-width: 10px;
-  border-radius: 50%;
 }
 
   /**************** Page - About Me ****************/
@@ -136,12 +144,11 @@
 
   .abtmedesc{
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     background-color: #243422;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     max-width: 500px;
-    border-radius: 5%;
   }
 
   .abtmegrid{
