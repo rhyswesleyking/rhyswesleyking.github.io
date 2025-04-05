@@ -129,6 +129,15 @@ overflow: auto;
   border-width: 10px;
 }
 
+.indexdesc{
+  margin: auto;
+  padding: 20px;
+  background-color: #243422;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 500px;
+}
+
   /**************** Page - About Me ****************/
 
   .abtme{
@@ -147,13 +156,16 @@ overflow: auto;
     background-color: #243422;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    max-width: 500px;
+    max-width: 400px;
   }
 
   .abtmegrid{
-    display: inline-grid;
+    display: flex;
+    float: left;
     padding: 10px;
-    align-items:center;
+    margin: auto;
+    align-content:center;
+    justify-content: center;
   }
 
   /**************** Page - Blog ****************/
@@ -172,6 +184,24 @@ overflow: auto;
       margin: auto;
       padding: 10px;
       max-width: 700px;
+    }
+
+    /*Box containter for gratitude post*/
+    .blogpstgalgrat{
+      background-color: #60775d;
+      padding: 10px;
+      max-width: 350px;
+      max-height: 350px;
+    }
+
+    /*Box containter for gratitude post*/
+    .blogpstgalxtra{
+      background-color: #abc1a8;
+      padding: 10px;
+      float:right;
+      max-width: 350px;
+      max-height: 350px;
+      overflow: auto;
     }
 
     /*quick gallery picture settings*/
