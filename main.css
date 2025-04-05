@@ -184,23 +184,30 @@ overflow: auto;
       margin: auto;
       padding: 10px;
       max-width: 700px;
+      overflow: auto;
     }
 
     /*Box containter for gratitude post*/
     .blogpstgalgrat{
       background-color: #60775d;
       padding: 10px;
-      max-width: 350px;
-      max-height: 350px;
+      width: 45%;
+      height: 45%;
+      display: flex;
+      float:left;
+      overflow: auto;
     }
 
     /*Box containter for gratitude post*/
     .blogpstgalxtra{
       background-color: #abc1a8;
       padding: 10px;
-      float:right;
-      max-width: 350px;
-      max-height: 350px;
+      width: 45%;
+      height:45%;
+      display: flex;
+      align-content:center;
+      justify-content: center;
+      float: right;
       overflow: auto;
     }
 
