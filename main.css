@@ -227,6 +227,13 @@ overflow: auto;
     color: white;
 }
 
+    .iframeblg{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+}
+
   /**************** Page - Shop ****************/
 
 
