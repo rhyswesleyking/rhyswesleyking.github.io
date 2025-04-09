@@ -2,7 +2,7 @@
 
   body{
     background-color: #1e1e1e;
-    background-image: url("digital_rain.gif");
+    background-image: url("/images/mainimg/digital_rain.gif");
     background-size: cover;
     background-attachment: fixed;
 }
