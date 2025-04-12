@@ -145,6 +145,14 @@ overflow: auto;
   padding: 30px;
 }
 
+.index-upcoming{
+  background-color: rgb(133, 133, 133, 0.7);
+  max-width: 400px;
+  max-height: 300px;
+  padding:20px;
+  margin:10px;
+}
+
   /**************** Page - About Me ****************/
 
   .abtme{
@@ -177,7 +185,7 @@ overflow: auto;
 
   /*Portfolio - Music*/
 .portf_m{
-  background-color: #6e8e6a;
+  background-image: url(images/mainimg/glados1.gif);
   padding: 80px;
   font-family: 'Courier New', Courier, monospace;
   color:#fff;
