@@ -173,6 +173,33 @@ overflow: auto;
     justify-content: center;
   }
 
+  /**************** Page - Portfolio ****************/
+
+  /*Portfolio - Music*/
+.portf_m{
+  background-color: #6e8e6a;
+  padding: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  color:#fff;
+}
+
+/*Portfolio - Film*/
+.portf_f{
+  background-color: #abbfa9;
+  padding: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  color:#fff;
+}
+
+/*Portfolio - Photography*/
+.portf_p{
+  background-color: #6e8e6a;
+  padding: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  color:#fff;
+}
+
+
   /**************** Page - Blog ****************/
 
     /*Left to right image links to blog posts*/
@@ -182,20 +209,41 @@ overflow: auto;
       margin: auto;
       overflow-x:scroll;
       scrollbar-width:thin;
+      max-width: 700px;
     }
 
-    /*Box containter thing for blog post images/videos*/
+    /*quick gallery picture settings*/
+    .blog-gallery {
+      background-color: rgb(43, 43, 43, 0.7);
+      margin: 20px;
+  }
+  
+    .blog-gallery:hover {
+        box-shadow: 0 12px 24px 0 rgba(129, 255, 90, 0.2), 0 18px 60px 0 rgba(129, 255, 90, 0.2);
+  }
+  
+    .blog-desc {
+      text-align: center;
+      padding: 10px;
+      color: #fff;
+  }
+  
+    .blogpix{
+      height:200px;
+  }
+
+    /*BLOG SUBPAGES - Main*/
     .blogpstgal{
-      background-color: #243422;
+      background-color: rgb(36, 52, 34, 0.5);
       margin: auto;
       padding: 10px;
       max-width: 700px;
       overflow: auto;
     }
 
-    /*Box containter for gratitude post*/
+    /*BLOG SUBPAGES - Box containter for gratitude post*/
     .blogpstgalgrat{
-      background-color: #60775d;
+      background-color: rgb(96, 119, 93, 0.5);
       padding: 10px;
       width: 45%;
       height: 45%;
@@ -204,9 +252,9 @@ overflow: auto;
       overflow: auto;
     }
 
-    /*Box containter for gratitude post*/
+    /*BLOG SUBPAGES - Box containter for gratitude post*/
     .blogpstgalxtra{
-      background-color: #abc1a8;
+      background-color: rgb(171, 193, 168, 0.5);
       padding: 10px;
       width: 45%;
       height:45%;
@@ -217,28 +265,15 @@ overflow: auto;
       overflow: auto;
     }
 
-    /*quick gallery picture settings*/
-    .blog-gallery {
-    background-color: rgb(43, 43, 43);
-    margin: 20px;
-}
-
-    .blog-gallery:hover {
-      box-shadow: 0 12px 24px 0 rgba(129, 255, 90, 0.2), 0 18px 60px 0 rgba(129, 255, 90, 0.2);
-}
-
-    .blog-desc {
-    text-align: center;
-    padding: 10px;
-    color: white;
-}
-
-    .blogpix{
-    height:200px;
-}
-
   /**************** Page - Shop ****************/
 
+      .kofishop{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 30px;
+      }
 
   /**************** Filters & Effects ****************/
   /*Crt filter from http://aleclownes.com/2017/02/01/crt-display.html*/
