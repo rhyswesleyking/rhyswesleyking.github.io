@@ -212,26 +212,32 @@ overflow: auto;
 
   /*Portfolio - Music*/
 .portf_m{
-  background-color: #6e8e6a;
+  background-color: rgb(110, 142, 106, 0.7);
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
-  color:#fff;
+  text-align:center;
+  font-size: 2.5vw;
+  color: #fff;
+  text-decoration: none;
 }
 
 /*Portfolio - Film*/
 .portf_f{
-  background-color: #abbfa9;
+  background-color: rgb(171, 191, 169, 0.7);
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 2.5vw;
   color:#fff;
 }
 
 /*Portfolio - Photography*/
 .portf_p{
-  background-color: #6e8e6a;
+  background-color: rgb(110, 142, 106, 0.7);
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
   color:#fff;
+  text-align: center;
 }
 
 
