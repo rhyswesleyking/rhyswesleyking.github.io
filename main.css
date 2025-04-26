@@ -166,20 +166,6 @@ overflow: auto;
   margin: auto;
   padding: 30px;
 }
-
-.index-upcoming{
-  background-color: rgb(133, 133, 133, 0.7);
-  max-width: 400px;
-  max-height: 300px;
-  padding:20px;
-  margin:20px;
-  display: flex;
-  overflow-y: scroll;
-  scrollbar-width: none;
-  align-content: center;
-  justify-self: center;
-}
-
   /**************** Page - About Me ****************/
 
   .abtme{
