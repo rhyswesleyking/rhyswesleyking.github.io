@@ -219,7 +219,8 @@ overflow: auto;
 
 /*Portfolio - Photography*/
 .portf_p{
-  background-color: rgb(110, 142, 106, 0.7);
+  background-image: url(images/portf_bnr/portf_bnr1.jpg);
+  background-size: cover;
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
   color:#fff;
