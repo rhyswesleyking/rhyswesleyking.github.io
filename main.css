@@ -198,7 +198,8 @@ overflow: auto;
 
   /*Portfolio - Music*/
 .portf_m{
-  background-color: rgb(110, 142, 106, 0.7);
+  background-image: url(images/portf_bnr/portf_bnr3.png);
+  background-size: cover;
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
   text-align:center;
@@ -209,7 +210,8 @@ overflow: auto;
 
 /*Portfolio - Film*/
 .portf_f{
-  background-color: rgb(171, 191, 169, 0.7);
+  background-image: url(images/portf_bnr/portf_bnr2.jpg);
+  background-size: cover;
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
