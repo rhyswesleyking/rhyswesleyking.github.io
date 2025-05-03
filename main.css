@@ -198,7 +198,7 @@ overflow: auto;
 
   /*Portfolio - Music*/
 .portf_m{
-  background-image: url(images/portf_bnr/portf_bnr3.png);
+  background-image: url(images/portf_bnr/portf_bnr3.avif);
   background-size: cover;
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
@@ -210,7 +210,7 @@ overflow: auto;
 
 /*Portfolio - Film*/
 .portf_f{
-  background-image: url(images/portf_bnr/portf_bnr2.jpg);
+  background-image: url(images/portf_bnr/portf_bnr2.avif);
   background-size: cover;
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
@@ -221,7 +221,7 @@ overflow: auto;
 
 /*Portfolio - Photography*/
 .portf_p{
-  background-image: url(images/portf_bnr/portf_bnr1.jpg);
+  background-image: url(images/portf_bnr/portf_bnr1.avif);
   background-size: cover;
   padding: 50px;
   font-family: 'Courier New', Courier, monospace;
