@@ -2,7 +2,7 @@
 // Song list
 const songs = [
     { title: "Old School House Practice Set (03/2025)", artist: "Various Artists", file: "/audio/dj_sets_lq/house_set_032025.mp3" },
-    { title: "Song Title", artist: "Artist", file: "song2.mp3"}
+    { title: "Y2K Circuit Party Mix", artist: "Various Artists", file: "/audio/dj_sets_lq/y2kgay.mp3"}
   ];
   
 let currentIndex = 0;
