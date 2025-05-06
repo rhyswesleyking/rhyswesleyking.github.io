@@ -20,15 +20,27 @@
         <h1>Music</h1>
         <h2>YouTube DJ Sets</h2>
         <div class="container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/89IKCjy1-0g?si=rEimc65t_Kx8DLV3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/U5U1hM9rtwo?si=4NZo_7iBc-PxHXHC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" style="padding: 20px;" src="https://www.youtube.com/embed/89IKCjy1-0g?si=rEimc65t_Kx8DLV3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" style="padding: 20px;" src="https://www.youtube.com/embed/U5U1hM9rtwo?si=4NZo_7iBc-PxHXHC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <h2>Soundcloud</h2>
-        <div class="container">
-            <iframe width="80%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2069678756&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rhys_king_music" title="Rhys King" target="_blank" style="color: #cccccc; text-decoration: none;">Rhys King</a> · <a href="https://soundcloud.com/rhys_king_music/late-night-practice-vol-2" title="Late Night Practice - Vol. 2" target="_blank" style="color: #cccccc; text-decoration: none;">Late Night Practice - Vol. 2</a></div>
-            <iframe width="80%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2059677460&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rhys_king_music" title="Rhys King" target="_blank" style="color: #cccccc; text-decoration: none;">Rhys King</a> · <a href="https://soundcloud.com/rhys_king_music/late-night-practice-vol-1" title="Late Night Practice - Vol. 1" target="_blank" style="color: #cccccc; text-decoration: none;">Late Night Practice - Vol. 1</a></div>
-            <iframe width="80%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1695511629&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rhys_king_music" title="Rhys King" target="_blank" style="color: #cccccc; text-decoration: none;">Rhys King</a> · <a href="https://soundcloud.com/rhys_king_music/trancetechnopracticemix" title="Trance/Techno Practice Mix" target="_blank" style="color: #cccccc; text-decoration: none;">Trance/Techno Practice Mix</a></div>
+                                
+        <div id="music-player-container">
+            <div class="music-player">
+                <div class="song-info">
+                    <span id="song-title">Title</span> - <span id="song-artist">Artist</span>
+                </div>
+                <button id="prev" title="Previous Song">◁</button>
+                <button id="play-pause" title="Play">▶</button>
+                <button id="next" title="Next Song">▷</button>
+                <input type="range" id="volume" min="0" max="1" step="0.01" value="0.2" title="Volume"> <!--The default volume is 20%, but you can change it to whatever you'd like-->
+                <span id="volume-label">20%</span>
+                <input type="range" id="progress" min="0" max="1" value="0" title="Progress">
+            </div>
+            <button id="toggle-button" title="Collapse">❰</button>
         </div>
+                        
     </div>
+    <script src="/musicplayer.js"></script>
+    /*********** Credits to https://july.lol for the music player ***********/
 </body>
 </html>
